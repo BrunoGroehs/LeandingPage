@@ -45,7 +45,7 @@ export default function HeroSection() {
         </motion.a>
         <p className="mt-4 text-xs sm:text-sm text-gray-500 flex items-center justify-center lg:justify-start gap-2">
           <CheckCircle size={16} className="text-[#25D366]" /> Configuração em
-          24h • Teste de 2 semanas
+          48h • Teste de 2 semanas
         </p>
       </motion.div>
 
