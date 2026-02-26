@@ -21,7 +21,7 @@ const features = [
     icon: <BellRing size={32} className="text-[#FBBF24]" />,
     title: "Lembretes Automáticos (Anti-Faltas)",
     description:
-      "A Leadr manda mensagem horas antes confirmando a presença. Reduza as faltas dos clientes em até 80%.",
+      "A LEADr manda mensagem horas antes confirmando a presença. Reduza as faltas dos clientes em até 80%.",
   },
 ];
 
@@ -58,8 +58,8 @@ export default function SolutionSection() {
           <span className="text-[#FBBF24]">não tira folga e não erra.</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-          A Leadr não é um robô burro de opções. É uma Inteligência Artificial
-          treinada para vender e agendar como o melhor recepcionista do mundo.
+          A LEADr não é um bot de opções. É uma Inteligência Artificial treinada
+          para vender e agendar seus cortes de maneira humanizada e simples.
         </p>
       </motion.div>
 

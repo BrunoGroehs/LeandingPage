@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Leadr | IA Exclusiva para Barbearias",
-  description: "Pare de parar a máquina para responder o WhatsApp. A Leadr agenda seus clientes no automático, 24/7.",
+  title: "LEADr | IA Exclusiva para Barbearias",
+  description: "Corte o cabelo, não o seu ritmo. A LEADr agenda seus clientes no automático, 24/7.",
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ const testimonials = [
   {
     name: "Marcos",
     shop: "Barber Shop 011",
-    text: "Irmão, a Leadr salvou meu final de semana. Acordei domingo com 5 cortes agendados de madrugada. Surreal!",
+    text: "Irmão, a LEADr salvou meu final de semana. Acordei domingo com 5 cortes agendados de madrugada. Surreal!",
   },
   {
     name: "João",
@@ -33,7 +33,7 @@ export default function SocialProofSection() {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6">
-          Quem colocou a Leadr na barbearia{" "}
+          Quem colocou a LEADr na barbearia{" "}
           <span className="text-[#FBBF24]">não volta atrás.</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">

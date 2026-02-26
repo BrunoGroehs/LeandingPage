@@ -34,7 +34,7 @@ export default function StickyCTA() {
             className="w-full flex items-center justify-center gap-2 bg-[#25D366] text-black font-bold text-lg px-6 py-4 rounded-xl shadow-[0_0_20px_rgba(37,211,102,0.5)] active:scale-95 transition-transform"
           >
             <MessageCircle size={20} />
-            Quero a Leadr na minha Barbearia
+            Quero a LEADr na minha Barbearia
           </a>
         </motion.div>
       )}

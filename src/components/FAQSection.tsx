@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "Preciso trocar meu número?",
     answer:
-      "Não. A Leadr se conecta ao seu número atual de WhatsApp Business. Seus clientes continuam falando no mesmo lugar.",
+      "Não. A LEADr se conecta ao seu número atual de WhatsApp Business através de meios oficiais da Meta. Seus clientes continuam falando no mesmo lugar.",
   },
   {
     question: "E se o cliente quiser falar com um humano?",
@@ -23,7 +23,12 @@ const faqs = [
   {
     question: "Funciona com qualquer sistema de agenda?",
     answer:
-      "Sim! Nós integramos com os principais sistemas de agendamento do mercado (Google Calendar, AppBarber, etc).",
+      "Focamos nossa tecnologia na integração com o Google Calendar. Escolhemos o Google por ser a ferramenta mais estável do mundo e, o melhor: 100% gratuita. Assim, você não precisa gastar com mensalidades de outros sistemas para ter seus horários organizados e sincronizados com seu celular.",
+  },
+  {
+    question: "Existe risco de banimento no WhatsApp?",
+    answer:
+      "Zero risco. Diferente de ferramentas informais que podem comprometer seu número, a LEADr utiliza o WhatsApp Coexistence. Essa é uma tecnologia oficial do WhatsApp (dona da Meta), o que garante que sua conta esteja 100% protegida e dentro das normas da plataforma. Você tem a inteligência de ponta com a segurança de uma ferramenta homologada.",
   },
 ];
 

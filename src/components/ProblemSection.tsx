@@ -36,7 +36,7 @@ export default function ProblemSection() {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6">
-          Quantos cortes você já perdeu hoje por{" "}
+          Quantos cortes você já perdeu por{" "}
           <span className="text-red-500">demorar a responder?</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">

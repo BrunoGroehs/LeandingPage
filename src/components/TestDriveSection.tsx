@@ -37,7 +37,7 @@ export default function TestDriveSection() {
             className="inline-flex items-center justify-center gap-3 bg-[#25D366] text-black font-bold text-xl px-10 py-5 rounded-2xl glow-green transition-all"
           >
             <MessageCircle size={28} />
-            Falar com o Agente Leadr
+            Falar com o Agente LEADr
           </motion.a>
         </div>
       </motion.div>

@@ -2,15 +2,15 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Instagram, Facebook, Twitter } from "lucide-react";
+
 
 export default function Footer() {
   return (
     <footer className="bg-[#050505] border-t border-white/10 py-12 px-6 relative z-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 mb-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 mb-12">
         <div className="col-span-2">
           <h3 className="text-2xl font-bold font-heading mb-4">
-            Leadr<span className="text-[#25D366]">.</span>
+            LEADr<span className="text-[#25D366]">.</span>
           </h3>
           <p className="text-gray-400 max-w-sm leading-relaxed">
             A primeira Inteligência Artificial exclusiva para barbearias.
@@ -42,40 +42,10 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
-          <h4 className="text-lg font-bold font-heading mb-4">Siga-nos</h4>
-          <div className="flex gap-4">
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#25D366] hover:text-black transition-colors"
-            >
-              <Instagram size={20} />
-            </a>
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#25D366] hover:text-black transition-colors"
-            >
-              <Facebook size={20} />
-            </a>
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#25D366] hover:text-black transition-colors"
-            >
-              <Twitter size={20} />
-            </a>
-          </div>
-        </div>
+
       </div>
       <div className="max-w-7xl mx-auto border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-gray-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} Leadr. Todos os direitos reservados.</p>
-        <div className="flex gap-4 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white transition-colors">
-            Termos de Uso
-          </a>
-          <a href="#" className="hover:text-white transition-colors">
-            Política de Privacidade
-          </a>
-        </div>
+        <p>&copy; {new Date().getFullYear()} LEADr. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

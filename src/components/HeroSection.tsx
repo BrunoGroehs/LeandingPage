@@ -24,12 +24,12 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6 font-heading">
-          Pare de parar a máquina para{" "}
-          <span className="text-[#25D366]">responder o WhatsApp.</span>
+          Corte o cabelo, não o seu ritmo.{" "}
+          <span className="text-[#25D366]">Deixe o agendamento no automático.</span>
         </h1>
 
         <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-          A Leadr agenda seus clientes no automático, 24/7. Enquanto você foca
+          A LEADr agenda seus clientes no automático, 24/7. Enquanto você foca
           no degradê perfeito, nossa IA conversa, tira dúvidas e marca o horário
           direto na sua agenda.
         </p>
@@ -45,7 +45,7 @@ export default function HeroSection() {
         </motion.a>
         <p className="mt-4 text-sm text-gray-500 flex items-center gap-2">
           <CheckCircle size={16} className="text-[#25D366]" /> Configuração em
-          24h • Teste sem compromisso
+          24h • Teste de 2 semanas
         </p>
       </motion.div>
 
@@ -73,7 +73,7 @@ export default function HeroSection() {
               L
             </div>
             <div>
-              <p className="font-bold text-sm text-white">Leadr Bot 💈</p>
+              <p className="font-bold text-sm text-white">LEADr Bot 💈</p>
               <p className="text-xs text-green-200">Online</p>
             </div>
           </div>
