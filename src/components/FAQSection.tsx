@@ -40,19 +40,19 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-24 px-6 max-w-4xl mx-auto relative">
+    <section className="py-16 md:py-24 px-4 sm:px-6 max-w-4xl mx-auto relative">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-16"
+        className="text-center mb-12 md:mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-heading mb-4 md:mb-6">
           Ainda tem <span className="text-[#25D366]">dúvidas?</span>
         </h2>
-        <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-          Tudo o que você precisa saber antes de colocar a Leadr para trabalhar
+        <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto">
+          Tudo o que você precisa saber antes de colocar a LEADr para trabalhar
           para você.
         </p>
       </motion.div>
@@ -69,14 +69,15 @@ export default function FAQSection() {
           >
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
+              className="w-full flex items-center justify-between p-5 md:p-6 text-left focus:outline-none"
             >
-              <span className="text-xl font-bold font-heading">
+              <span className="text-lg md:text-xl font-bold font-heading pr-4">
                 {faq.question}
               </span>
               <motion.div
                 animate={{ rotate: openIndex === index ? 180 : 0 }}
                 transition={{ duration: 0.3 }}
+                className="flex-shrink-0"
               >
                 <ChevronDown size={24} className="text-gray-400" />
               </motion.div>
@@ -88,7 +89,7 @@ export default function FAQSection() {
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="px-6 pb-6 text-gray-400 leading-relaxed"
+                  className="px-5 pb-5 md:px-6 md:pb-6 text-gray-400 text-sm md:text-base leading-relaxed"
                 >
                   {faq.answer}
                 </motion.div>

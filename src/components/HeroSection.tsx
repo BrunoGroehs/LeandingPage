@@ -6,7 +6,7 @@ import { MessageCircle, CheckCircle } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative pt-24 pb-32 px-6 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center min-h-[90vh]">
+    <section className="relative pt-20 pb-24 lg:pt-24 lg:pb-32 px-4 sm:px-6 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center min-h-[90vh]">
       {/* Background Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#25D366] opacity-10 blur-[120px] rounded-full pointer-events-none"></div>
 
@@ -14,21 +14,21 @@ export default function HeroSection() {
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        className="z-10"
+        className="z-10 text-center lg:text-left flex flex-col items-center lg:items-start"
       >
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-6">
           <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
-          <span className="text-sm font-medium text-gray-300">
+          <span className="text-xs sm:text-sm font-medium text-gray-300">
             A 1ª IA exclusiva para Barbearias
           </span>
         </div>
 
-        <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6 font-heading">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 font-heading">
           Corte o cabelo, não o seu ritmo.{" "}
           <span className="text-[#25D366]"><span className="lg:whitespace-nowrap">Deixe o agendamento</span> no automático.</span>
         </h1>
 
-        <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+        <p className="text-base md:text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl">
           A LEADr agenda seus clientes no automático, 24/7. Enquanto você foca
           no degradê perfeito, nossa IA conversa, tira dúvidas e marca o horário
           direto na sua agenda.
@@ -43,7 +43,7 @@ export default function HeroSection() {
           <MessageCircle size={24} />
           Testar a IA Agora
         </motion.a>
-        <p className="mt-4 text-sm text-gray-500 flex items-center gap-2">
+        <p className="mt-4 text-xs sm:text-sm text-gray-500 flex items-center justify-center lg:justify-start gap-2">
           <CheckCircle size={16} className="text-[#25D366]" /> Configuração em
           24h • Teste de 2 semanas
         </p>
@@ -54,12 +54,12 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="relative z-10 flex justify-center"
+        className="relative z-10 flex justify-center w-full"
       >
         <motion.div
           animate={{ y: [0, -20, 0] }}
           transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
-          className="relative w-[320px] h-[650px] bg-black rounded-[3rem] border-[12px] border-gray-800 shadow-2xl overflow-hidden flex flex-col"
+          className="relative w-full max-w-[320px] h-[600px] md:h-[650px] bg-black rounded-[3rem] border-[12px] border-gray-800 shadow-2xl overflow-hidden flex flex-col"
         >
           {/* Dynamic Island */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120px] h-[30px] bg-black rounded-b-3xl z-50 flex items-center justify-center gap-2 px-3">
