@@ -25,7 +25,7 @@ export default function HeroSection() {
 
         <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6 font-heading">
           Corte o cabelo, não o seu ritmo.{" "}
-          <span className="text-[#25D366]">Deixe o agendamento no automático.</span>
+          <span className="text-[#25D366]"><span className="lg:whitespace-nowrap">Deixe o agendamento</span> no automático.</span>
         </h1>
 
         <p className="text-lg text-gray-400 mb-8 leading-relaxed">
@@ -69,8 +69,11 @@ export default function HeroSection() {
 
           {/* Header do WhatsApp Falso */}
           <div className="bg-[#075E54] pt-10 pb-3 px-4 flex items-center gap-3 z-40">
-            <div className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-black font-bold">
-              L
+            <div className="w-10 h-10 rounded-full bg-[#6B7C85] flex items-center justify-center overflow-hidden">
+              <svg viewBox="0 0 212 212" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="106" cy="212" r="70" fill="#b2bec3"/>
+                <circle cx="106" cy="80" r="44" fill="#b2bec3"/>
+              </svg>
             </div>
             <div>
               <p className="font-bold text-sm text-white">LEADr Bot 💈</p>

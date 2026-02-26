@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 export default function Footer() {
   return (
     <footer className="bg-[#050505] border-t border-white/10 py-12 px-6 relative z-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 mb-12">
-        <div className="col-span-2">
+      <div className="max-w-7xl mx-auto mb-12">
+        <div>
           <h3 className="text-2xl font-bold font-heading mb-4">
             LEADr<span className="text-[#25D366]">.</span>
           </h3>
@@ -16,31 +16,6 @@ export default function Footer() {
             A primeira Inteligência Artificial exclusiva para barbearias.
             Automatize seu agendamento e foque no que você faz de melhor.
           </p>
-        </div>
-        <div>
-          <h4 className="text-lg font-bold font-heading mb-4">Links Úteis</h4>
-          <ul className="space-y-2 text-gray-400">
-            <li>
-              <a href="#" className="hover:text-[#25D366] transition-colors">
-                Como Funciona
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-[#25D366] transition-colors">
-                Preços
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-[#25D366] transition-colors">
-                Depoimentos
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-[#25D366] transition-colors">
-                Contato
-              </a>
-            </li>
-          </ul>
         </div>
 
       </div>

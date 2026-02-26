@@ -2,7 +2,6 @@ import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
 import SolutionSection from "@/components/SolutionSection";
 import TestDriveSection from "@/components/TestDriveSection";
-import SocialProofSection from "@/components/SocialProofSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import StickyCTA from "@/components/StickyCTA";
@@ -14,7 +13,6 @@ export default function Home() {
       <ProblemSection />
       <SolutionSection />
       <TestDriveSection />
-      <SocialProofSection />
       <FAQSection />
       <Footer />
       <StickyCTA />
