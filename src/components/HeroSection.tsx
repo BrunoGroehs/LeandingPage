@@ -92,7 +92,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 1 }}
+              transition={{ delay: 1.5 }}
               className="self-end bg-[#005C4B] text-white p-2.5 rounded-l-xl rounded-tr-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
               Tem horário hoje à tarde?
@@ -100,20 +100,25 @@ export default function HeroSection() {
 
             {/* Typing indicator */}
             <motion.div
-              initial={{ opacity: 0, display: "block" }}
-              whileInView={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              initial={{ opacity: 0, height: 0, overflow: "hidden" }}
+              whileInView={{ 
+                opacity: [0, 1, 0],
+                height: [0, "auto", 0],
+                marginTop: [0, 8, 0],
+                marginBottom: [0, 8, 0]
+              }}
               viewport={{ once: true }}
-              transition={{ delay: 1.5, duration: 1, times: [0, 0.2, 1] }}
+              transition={{ delay: 2.5, duration: 1.5, times: [0, 0.1, 1] }}
               className="self-start bg-[#202C33] text-gray-400 p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
               <span className="animate-pulse">...</span>
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: -20, display: "none" }}
-              whileInView={{ opacity: 1, x: 0, display: "block" }}
+              initial={{ opacity: 0, x: -20, height: 0, overflow: "hidden" }}
+              whileInView={{ opacity: 1, x: 0, height: "auto", overflow: "visible" }}
               viewport={{ once: true }}
-              transition={{ delay: 2.5 }}
+              transition={{ delay: 4.1 }}
               className="self-start bg-[#202C33] text-white p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
               Fala, chefe! Temos às 15h e às 17h com o Bruno. Qual você prefere? ✂️
@@ -123,7 +128,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 4 }}
+              transition={{ delay: 6.5 }}
               className="self-end bg-[#005C4B] text-white p-2.5 rounded-l-xl rounded-tr-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
               15h
@@ -131,20 +136,25 @@ export default function HeroSection() {
 
             {/* Typing indicator */}
             <motion.div
-              initial={{ opacity: 0, display: "block" }}
-              whileInView={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              initial={{ opacity: 0, height: 0, overflow: "hidden" }}
+              whileInView={{ 
+                opacity: [0, 1, 0],
+                height: [0, "auto", 0],
+                marginTop: [0, 8, 0],
+                marginBottom: [0, 8, 0]
+              }}
               viewport={{ once: true }}
-              transition={{ delay: 4.5, duration: 1, times: [0, 0.2, 1] }}
+              transition={{ delay: 7.5, duration: 1.5, times: [0, 0.1, 1] }}
               className="self-start bg-[#202C33] text-gray-400 p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
               <span className="animate-pulse">...</span>
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: -20, display: "none" }}
-              whileInView={{ opacity: 1, x: 0, display: "block" }}
+              initial={{ opacity: 0, x: -20, height: 0, overflow: "hidden" }}
+              whileInView={{ opacity: 1, x: 0, height: "auto", overflow: "visible" }}
               viewport={{ once: true }}
-              transition={{ delay: 5.5 }}
+              transition={{ delay: 9.1 }}
               className="self-start bg-[#202C33] text-white p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
               Fechado! Horário agendado para as 15h. Te mando um lembrete mais
