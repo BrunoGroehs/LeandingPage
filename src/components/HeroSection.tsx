@@ -35,7 +35,9 @@ export default function HeroSection() {
         </p>
 
         <motion.a
-            href="#test-drive"
+            href="https://wa.me/5551997345400?text=Ol%C3%A1%2C%20gostaria%20de%20testar%20a%20IA%20para%20barbeiros."
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-black font-bold text-lg px-8 py-4 rounded-xl glow-green transition-all"
