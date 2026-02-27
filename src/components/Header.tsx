@@ -18,7 +18,7 @@ export default function Header() {
            {/* Fallback caso não tenha imagem ainda: um círculo verde */}
            <div className="absolute inset-0 bg-[#25D366] rounded-full opacity-20 animate-pulse"></div>
            <Image
-            src="/logo.png" 
+            src="/icon.png" 
             alt="LEADr Logo"
             width={40}
             height={40}

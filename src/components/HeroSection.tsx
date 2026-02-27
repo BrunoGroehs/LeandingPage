@@ -53,7 +53,8 @@ export default function HeroSection() {
       {/* HERO VISUAL - Floating iPhone */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, delay: 0.2 }}
         className="relative z-10 flex justify-center w-full"
       >
@@ -89,7 +90,8 @@ export default function HeroSection() {
             
             <motion.div
               initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ delay: 1 }}
               className="self-end bg-[#005C4B] text-white p-2.5 rounded-l-xl rounded-tr-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
@@ -99,7 +101,8 @@ export default function HeroSection() {
             {/* Typing indicator */}
             <motion.div
               initial={{ opacity: 0, display: "block" }}
-              animate={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              whileInView={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              viewport={{ once: true }}
               transition={{ delay: 1.5, duration: 1, times: [0, 0.2, 1] }}
               className="self-start bg-[#202C33] text-gray-400 p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
@@ -108,7 +111,8 @@ export default function HeroSection() {
 
             <motion.div
               initial={{ opacity: 0, x: -20, display: "none" }}
-              animate={{ opacity: 1, x: 0, display: "block" }}
+              whileInView={{ opacity: 1, x: 0, display: "block" }}
+              viewport={{ once: true }}
               transition={{ delay: 2.5 }}
               className="self-start bg-[#202C33] text-white p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
@@ -117,7 +121,8 @@ export default function HeroSection() {
 
             <motion.div
               initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ delay: 4 }}
               className="self-end bg-[#005C4B] text-white p-2.5 rounded-l-xl rounded-tr-xl max-w-[80%] text-sm shadow-sm mb-2"
             >
@@ -127,7 +132,8 @@ export default function HeroSection() {
             {/* Typing indicator */}
             <motion.div
               initial={{ opacity: 0, display: "block" }}
-              animate={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              whileInView={{ opacity: [0, 1, 0], display: ["block", "block", "none"] }}
+              viewport={{ once: true }}
               transition={{ delay: 4.5, duration: 1, times: [0, 0.2, 1] }}
               className="self-start bg-[#202C33] text-gray-400 p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
@@ -136,7 +142,8 @@ export default function HeroSection() {
 
             <motion.div
               initial={{ opacity: 0, x: -20, display: "none" }}
-              animate={{ opacity: 1, x: 0, display: "block" }}
+              whileInView={{ opacity: 1, x: 0, display: "block" }}
+              viewport={{ once: true }}
               transition={{ delay: 5.5 }}
               className="self-start bg-[#202C33] text-white p-2.5 rounded-r-xl rounded-tl-xl max-w-[80%] text-sm shadow-sm"
             >
