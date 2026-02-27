@@ -49,18 +49,18 @@ export default function StickyCTA() {
             exit={{ scale: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: "backOut" }}
             className="hidden md:flex fixed bottom-8 right-8 z-50 items-center justify-center"
-          >https://wa.me/555191028044?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+          >
+            <motion.a
+              href="https://wa.me/555191028044?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
               target="_blank"
-              rel="noopener noreferrer
-            <a
-              href="#test-drive"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3 bg-[#25D366] text-black font-bold text-lg px-6 py-4 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.6)] hover:shadow-[0_0_30px_rgba(37,211,102,0.8)] transition-all"
             >
               <MessageCircle size={24} />
               Quero a LEADr na minha Barbearia
-            </a>
+            </motion.a>
           </motion.div>
         </>
       )}

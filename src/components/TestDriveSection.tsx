@@ -29,7 +29,7 @@ export default function TestDriveSection() {
           </p>
 
           <motion.a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20testar%20a%20IA%20da%20Leadr%!"
+            href="https://wa.me/5551997345400?text=Ol%C3%A1%2C%20gostaria%20de%20testar%20a%20IA%20para%20barbeiros."
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
