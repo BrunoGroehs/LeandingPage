@@ -41,7 +41,7 @@ export default function HeroSection() {
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-black font-bold text-lg px-8 py-4 rounded-xl glow-green transition-all"
         >
             <MessageCircle size={24} />
-            Testar a IA Agora
+            Demonstração da IA
         </motion.a>
         
         <p className="mt-4 text-xs sm:text-sm text-gray-500 flex items-center justify-center lg:justify-start gap-2">

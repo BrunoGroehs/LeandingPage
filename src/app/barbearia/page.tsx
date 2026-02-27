@@ -4,7 +4,6 @@ import ProblemSection from "@/components/ProblemSection";
 import SolutionSection from "@/components/SolutionSection";
 import TestDriveSection from "@/components/TestDriveSection";
 import FAQSection from "@/components/FAQSection";
-import LeadCaptureSection from "@/components/LeadCaptureSection";
 import Footer from "@/components/Footer";
 import StickyCTA from "@/components/StickyCTA";
 
@@ -18,7 +17,6 @@ export default function Home() {
       <SolutionSection />
       <TestDriveSection />
       <FAQSection />
-      <LeadCaptureSection />
       <Footer />
       <StickyCTA />
     </main>

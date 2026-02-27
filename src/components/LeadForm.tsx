@@ -155,7 +155,7 @@ export default function LeadForm() {
                   <Loader2 className="animate-spin w-5 h-5" /> Enviando...
                 </>
               ) : (
-                "Quero recebener uma proposta da LEADr"
+                ""
               )}
             </button>
           </motion.form>
