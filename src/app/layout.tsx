@@ -14,6 +14,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "LEADr | IA Exclusiva para Barbearias",
   description: "Corte o cabelo, não o seu ritmo. A LEADr agenda seus clientes no automático, 24/7.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

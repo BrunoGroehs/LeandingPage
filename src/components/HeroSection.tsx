@@ -35,14 +35,15 @@ export default function HeroSection() {
         </p>
 
         <motion.a
-          href="#test-drive"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-black font-bold text-lg px-8 py-4 rounded-xl glow-green transition-all"
+            href="#test-drive"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-black font-bold text-lg px-8 py-4 rounded-xl glow-green transition-all"
         >
-          <MessageCircle size={24} />
-          Testar a IA Agora
+            <MessageCircle size={24} />
+            Testar a IA Agora
         </motion.a>
+        
         <p className="mt-4 text-xs sm:text-sm text-gray-500 flex items-center justify-center lg:justify-start gap-2">
           <CheckCircle size={16} className="text-[#25D366]" /> Configuração em
           48h • Teste de 2 semanas
